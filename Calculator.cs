@@ -14,7 +14,7 @@ namespace PostfixNotation
         private List<string> standart_operators =
             new List<string>(new string[] { "(", ")", "+", "-", "*", "/", "^", "l" });
  
-        private IEnumerable<string> Separate(string input)//парсит строку кароч тут
+        private IEnumerable<string> Separate(string input) //парсит строку
         {            
             int pos = 0;
             while (pos < input.Length)
